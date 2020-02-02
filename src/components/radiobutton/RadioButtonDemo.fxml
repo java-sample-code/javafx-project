@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.FlowPane?>
+
+
+<FlowPane hgap="10.0" prefHeight="185.0" prefWidth="361.0" vgap="10.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="components.radiobutton.RadioButtonDemoController">
+   <children>
+      <Label text="Choose your gender:" />
+      <RadioButton fx:id="femaleRadioButton" mnemonicParsing="false" selected="true" text="Female">
+         <toggleGroup>
+            <ToggleGroup fx:id="group" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="maleRadioButton" mnemonicParsing="false" text="Male" toggleGroup="$group" />
+      <Button mnemonicParsing="false" onAction="#selectGender" text="Select" />
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</FlowPane>

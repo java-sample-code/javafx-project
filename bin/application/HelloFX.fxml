@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane prefHeight="208.0" prefWidth="291.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <top>
+      <Label alignment="CENTER" text="Top" BorderPane.alignment="CENTER" />
+   </top>
+   <left>
+      <Label text="Left" BorderPane.alignment="CENTER" />
+   </left>
+   <center>
+      <Label text="Center" BorderPane.alignment="CENTER" />
+   </center>
+   <right>
+      <Label text="Right" BorderPane.alignment="CENTER" />
+   </right>
+   <bottom>
+      <Label text="Bottom" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

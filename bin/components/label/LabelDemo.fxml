@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane prefHeight="209.0" prefWidth="267.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <center>
+      <Label alignment="CENTER" prefHeight="37.0" prefWidth="236.0" text="Hello world" textAlignment="CENTER" textFill="#14f8f1" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="32.0" />
+         </font>
+      </Label>
+   </center>
+</BorderPane>

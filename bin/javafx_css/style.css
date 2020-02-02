@@ -1,0 +1,8 @@
+#add-button {
+	-fx-background-color: rgb(85,211,140);	
+	-fx-text-fill: white	
+}
+
+.my-button {
+	-fx-pref-width: 100px;
+}

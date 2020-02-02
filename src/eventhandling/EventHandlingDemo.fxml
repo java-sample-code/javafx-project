@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+
+<GridPane hgap="10.0" prefHeight="164.0" prefWidth="240.0" vgap="10.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="eventhandling.EventHandlingDemoController">
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Label text="X:" />
+      <TextField prefHeight="27.0" prefWidth="187.0" GridPane.columnIndex="1" fx:id="xTextField" />
+      <Label text="Y:" GridPane.rowIndex="1" />
+      <TextField fx:id="yTextField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Button mnemonicParsing="false" onAction="#sum" prefHeight="27.0" prefWidth="97.0" text="Sum" GridPane.rowIndex="2" />
+      <Button mnemonicParsing="false" onAction="#clear" text="Clear" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Label fx:id="resultLabel" text="Result" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+   </children>
+</GridPane>
